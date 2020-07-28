@@ -1,16 +1,16 @@
 import React from 'react';
-import VideoIframeResponsive from './components/VideoIframeResponsive';
-import { BannerMainContainer, ContentAreaContainer, WatchButton } from './styles';
+//import VideoIframeResponsive from './components/VideoIframeResponsive';
+import { BannerMainContainer, ContentAreaContainer /*, WatchButton*/ } from './styles';
 import Back_Home from '../../assets/img/back_home.jpg';
 
 
-function getYouTubeId(youtubeURL) {
-  return youtubeURL
-    .replace(
-      /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/,
-      '$7',
-    );
-}
+//function getYouTubeId(youtubeURL) {
+//  return youtubeURL
+//    .replace(
+//      /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/,
+//      '$7',
+//    );
+//}
 
 export default function BannerMain({
   title,
