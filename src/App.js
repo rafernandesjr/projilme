@@ -11,8 +11,8 @@ function App() {
       <Menu />
 
       <BannerMain 
-        title = { "O seu projeto para o fim de semana." }
-        description = { "Com o filme ideal para acompanhá-lo." }
+        title = { "O projeto ideal para o seu fim de semana." }
+        description = { "Com um filme perfeito para acompanhá-lo." }
       />
 
       <Carousel
