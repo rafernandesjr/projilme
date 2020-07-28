@@ -1,21 +1,20 @@
 import styled from 'styled-components';
 
-export const ContentAreaContainer = styled.section`
-  margin-left: 5%;
-  margin-right: 5%;
+export const ContentAreaContainer = styled.section `
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);
   @media (max-width: 800px) {
     padding-top: 100px;
     flex-direction: column;
   }
 `;
 
-ContentAreaContainer.Item = styled.div`
+ContentAreaContainer.Item = styled.div `
   width: 50%;
   display: inline-block;
   margin-bottom: 50px;
@@ -24,7 +23,7 @@ ContentAreaContainer.Item = styled.div`
   }
 `;
 
-ContentAreaContainer.Category = styled.h1`
+ContentAreaContainer.Category = styled.h1 `
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -45,27 +44,28 @@ ContentAreaContainer.Category = styled.h1`
   }
 `;
 
-ContentAreaContainer.Description = styled.p`
+ContentAreaContainer.Description = styled.p `
+  text-align: center;
   @media (max-width: 800px) {
     display: none;
   }
 `;
 
-ContentAreaContainer.Title = styled.h2`
+ContentAreaContainer.Title = styled.h2 `
   font-style: normal;
   font-weight: 300;
   font-size: 40px;
   line-height: 1;
   margin-top: 0;
   margin-bottom: 32px;
+  text-align: center;
 
   @media (max-width: 800px) {
     font-size: 32px;
-    text-align: center;
   }
 `;
 
-export const BannerMainContainer = styled.section`
+export const BannerMainContainer = styled.section `
   height: 80vh;
   position: relative;
   color: #fff;
@@ -100,7 +100,7 @@ export const BannerMainContainer = styled.section`
   }
 `;
 
-export const WatchButton = styled.button`
+export const WatchButton = styled.button `
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
   cursor: pointer;
