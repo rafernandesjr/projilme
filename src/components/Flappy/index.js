@@ -10,7 +10,7 @@ function Flappy() {
 }
 
 export default Flappy;
-
+/*
 let frames = 0;
 const som_HIT = new Audio();
 som_HIT.src = {Efeito};
@@ -367,3 +367,4 @@ window.addEventListener('click', function() {
 
 mudaParaTela(Telas.INICIO);
 loop();
+*/
